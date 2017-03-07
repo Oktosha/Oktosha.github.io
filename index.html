@@ -5,46 +5,87 @@
 <head>
   <title> Daria Kolodzey </title>
   <style>
+    p, h1 {
+      margin-left: 40px;
+    }
     body {
       padding: 0;
       margin: 0;
-      background-color: white;
     }
-    .content {
-      display: inline-block;
+    .social a {
+      color: white;
+    }
+    .bio {
+      margin-top: 15px;
       position: absolute;
-      bottom: 20px;
-      right: 20px;
-      padding-left: 20px;
-      padding-right: 40px;
-      padding-bottom: 10px;
-      border-radius: 10px;
-      background-color: #C1BCF6;
-      background-color: rgba(193, 188, 246, 0.3);
+      width: 100%;
+      padding: 0;
     }
     img {
       position: absolute;
       left:0;
       right:0;
+      margin-top: 15px;
       margin-left:auto;
       margin-right:auto;
-      height: 80%;
+      height: 70%;
     }
+    .social {
+      background-color: #141402;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      padding: 0;
+      }
+
+    .stripe-1 {
+      position: absolute;
+      top: 250px;
+      background-color: #383156;
+      width: 100%;
+      height: 40px;
+    }
+
+    .stripe-2 {
+      position: absolute;
+      top: 380px;
+      background-color: rgba(56, 49, 86, 0.8);
+      width: 100%;
+      height: 60px;
+    }
+
+    .stripe-3 {
+      position: absolute;
+      top: 590px;
+      background-color: #383156;
+      width: 100%;
+      height: 40px;
+    }
+
+    .social a {
+      padding-right: 10px;
+    }
+
   </style>
 </head>
 
 <body>
-  <img src="images/kolodzey.jpg">
-  <div class="content">
-    <h1>Daria Kolodzey</h1>
-    <p>Software intern at Google</p>
-    <p>Co-Founder at <a href="https://snakify.org">snakify.org</a></p>
-    <p>
-      <a href="https://twitter.com/DariaKolodzey">Twitter</a>
-      <a href="https://medium.com/@dkolodzey">Medium</a>
-      <a href="https://facebook.com/kolodaria">Facebook</a>
-      <a href="https://vk.com/d.kolodzey">Vkontakte</a>
-    </p>
-  </div>
+    <div class="stripe-1"></div>
+    <div class="stripe-3"></div>
+    <img src="images/kolodzey.png"></img>
+    <div class="bio">
+      <h1>Daria Kolodzey</h1>
+      <p>Software intern at Google</p>
+      <p>Co-Founder at <a href="https://snakify.org">snakify.org</a></p>
+    </div>
+    <div class="stripe-2"></div>
+    <div class="social">
+      <p>
+        <a href="https://twitter.com/DariaKolodzey">Twitter</a>
+        <a href="https://medium.com/@dkolodzey">Medium</a>
+        <a href="https://facebook.com/kolodaria">Facebook</a>
+        <a href="https://vk.com/d.kolodzey">Vkontakte</a>
+      </p>
+    </div>
 </body>
 </html>
