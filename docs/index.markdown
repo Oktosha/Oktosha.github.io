@@ -5,8 +5,6 @@
 layout: home
 ---
 
-# Intro
-
 ![smiling woman in a white T-shirt](/assets/me-2025.jpg){: style="width: 300px; float: right; margin-left: 30px"}
 
 Hello!
